@@ -1,0 +1,21 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.discord-invite-button {
+    width: 41%;
+    display: flex;
+    padding: 10px;
+    float: left;
+    margin-right: 3%;
+}
+
+.store-link-button {
+    width: 41%;
+    display: flex;
+    padding: 10px;
+    float: right;
+    margin-left: 3%;
+}
