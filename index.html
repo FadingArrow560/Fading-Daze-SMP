@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>FadingDazeWiki</title>
+    <title>Fading Daze Wiki</title>
     <meta property="og:title" content="FadingDazeWiki" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
@@ -59,24 +59,24 @@
       <link href="./index.css" rel="stylesheet" />
 
       <div class="home-container">
-        <div data-role="Header" class="home-navbar-container">
+        <header data-role="Header" class="home-navbar-container">
           <div class="home-navbar">
             <div class="home-logo">
-              <img
-                alt="image"
-                src="public/icon-01-1500h.png"
-                class="home-image"
-              />
+                <a href="#">
+                    <img alt="image"
+                         src="public/icon-01-1500h.png"
+                         class="home-image" />
+                </a>
             </div>
             <div class="home-container1">
-              <header data-thq="thq-navbar" class="home-navbar-interactive">
+              <div data-thq="thq-navbar" class="home-navbar-interactive">
                 <div data-thq="thq-navbar-nav" class="home-desktop-menu">
-                  <nav class="home-links">
-                    <span class="home-text">Game Play Guide</span>
-                    <span class="home-text01">Command List</span>
-                    <span class="home-text02">Worlds</span>
-                    <span class="home-text03">Blog</span>
-                  </nav>
+                  <div class="home-links">
+                    <a href="info/game-play-guide/game-play-guide.html" class="home-text">Game Play Guide</a>
+                    <a href="info/commands-list/commands-list.html" class="home-text">Commands Lists</a>
+                    <a href="info/worlds/worlds.html"class="home-text">Worlds</a>
+                    <a href="info/blog/blog.html" class="home-text">Blog</a>
+                  </div>
                   <div class="home-buttons"></div>
                 </div>
                 <div data-thq="thq-mobileclose-menu" class="home-mobileclose-menu">
@@ -139,7 +139,7 @@
                     </svg>
                   </div>
                 </div>
-              </header>
+              </div>
             </div>
             <div class="home-cta-container"></div>
             <div data-role="MobileMenu" class="home-mobile-menu1">
@@ -193,7 +193,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </header>
         <div class="home-hero">
           <div class="home-hero-text-container">
             <h1 class="home-heading">Fading Daze Wiki</h1>
